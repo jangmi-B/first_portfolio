@@ -578,6 +578,7 @@ p {
 
   .navbar__menu.open {
     display: block;
+    width: 100%;
     background-color: var(--color-navi);
     justify-content: space-between;
   }
