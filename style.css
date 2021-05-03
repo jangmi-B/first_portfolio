@@ -107,6 +107,8 @@ p {
   font-weight: var(--font-regular);
   color: var(--color-black);
   margin: 4px 0;
+  font-family: "Cafe24Oneprettynight";
+  font-weight: 600;
 }
 
 /* Navbar */
@@ -114,7 +116,7 @@ p {
 #navbar {
   position: fixed;
   width: 100%;
-  height: 80px;
+  /* height: 80px; */
   display: flex;
   justify-content: space-between;
   background-color: var(--color-navi);
@@ -479,7 +481,7 @@ p {
 .testimonial__speech-bubble {
   padding: 18px;
   background-color: var(--color-white);
-  border-radius: var(--size-border-radius);
+  border-radius: 15px;
 }
 
 .testimonial__speech-bubble p {
